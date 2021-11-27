@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Architect Website</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
@@ -15,13 +15,54 @@
     />
   </head>
   <body>
-    
-    <script src="script.js"></script>
+    <div class="container">
+      <div class="hamburger-menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+        <span>Close</span>
+      </div>
+      <header class="header">
+        <div class="img-wrapper">
+          <img src="./img/bg.jpg" alt="">
+        </div>
+        <div class="banner">
+          <h1>Architecture & Interior Design</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus voluptatibus tempora quia velit labore a!</p>
+          <button>Discover Now</button>
+        </div>
+      </header>
+      <section class="sidebar">
+        <ul class="menu">
+          <li class="menu-item" data-content="Home">
+            <a href="#" class="menu-link">Home</a>
+          </li>
+          <li class="menu-item" data-content="About Us">
+            <a href="#" class="menu-link">About Us</a>
+          </li>
+          <li class="menu-item" data-content="Team">
+            <a href="#" class="menu-link">Team</a>
+          </li>
+          <li class="menu-item" data-content="Pricing">
+            <a href="#" class="menu-link">Pricing</a>
+          </li>
+          <li class="menu-item" data-content="Contact">
+            <a href="#" class="menu-link">Contact</a>
+          </li>
+        </ul>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </section>
+    </div>
+    <script src="./js/script.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"
-    ></script>
-    <script src="tilt.js"></script>
+      crossorigin="anonymous">
+    </script>
+    <script src="./js/tilt.js"></script>
   </body>
 </html>
